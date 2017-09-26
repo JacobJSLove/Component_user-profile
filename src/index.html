@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <title>Profile App</title>
+    <link rel='stylesheet' href='css/style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/angular.js"></script>
+    <script src="controller.js"></script>
+    <script src="profile-component/profileFactory.js"></script>
+    <script src="profile-component/myProfileFactory.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+        <div class="container-wrapper">
+<div class="container-profile">
+    <section class="profile-main_top">
+        <figure>
+          <img src="img/harvey.jpg" alt="Harvey Specter" width="70px" height="70px">
+          <figcaption>
+            <i class="share icon-export" aria-hidden="true"></i>
+                <div class="profile-main_wrapper">
+                  <h1 class="profile-main_name">Harvey Specter</h1>
+                  <h2 class="profile-main_city">New York, USA</h2>
+                </div>
+                <i class="like icon-heart-empty"  aria-hidden="true"></i>
+          </figcaption>
+        </figure>
+        <ul>
+          <li><h5>121</h5><p>Likes</p></li>
+          <li><h5>723</h5><p>Fallowing</p></li>
+          <li><h5>4433</h5><p>Fallowers</p></li>
+        </ul>
+        <button>FOLLOW</button>
+    </section>
+<section class="profile-comments">
+  <p class="profile-comments_more">Hide comments (353)</p>
+<ul>
+  <li>
+    <div class="profile-comments_wrapper">
+    <img src="img/harvey.jpg" alt="Harvey Specter - Mini" width="40px" height="40px">
+    <article>
+    <h5>Mike Ross</h5><span class="date">1d</span>
+    <p>Curabitur nec nunc dignissim, rutrum dui sit amet, tempor elit. Aliquam volutpat sem vehicula facilisis lacinia. Nulla finibus tempor nibh, at finibus metus porttitor vel.</p>
+    </article>
+    </div>
+  </li>
+  <li>
+    <div class="profile-comments_wrapper">
+    <img src="img/harvey.jpg" alt="Harvey Specter - Mini" width="40px" height="40px">
+    <article>
+    <h5>Mike Ross</h5><span class="date">1d</span>
+    <p>Curabitur nec nunc dignissim, rutrum dui sit amet, tempor elit. Aliquam volutpat sem vehicula facilisis lacinia. Nulla finibus tempor nibh, at finibus metus porttitor vel.</p>
+    </article>
+    </div>
+  </li>
+    <li>
+    <div class="profile-comments_wrapper">
+    <img src="img/harvey.jpg" alt="Harvey Specter - Mini" width="40px" height="40px">
+    <article>
+    <h5>Mike Ross</h5><span class="date">1d</span>
+    <p>Curabitur nec nunc dignissim, rutrum dui sit amet, tempor elit. Aliquam volutpat sem vehicula facilisis lacinia. Nulla finibus tempor nibh, at finibus metus porttitor vel.</p>
+    </article>
+    </div>
+  </li>
+</ul>
+<div class="profile-comments_new-wrapper">
+<input class="profile-comments_new" type="text" placeholder="Add a comment"></input>
+</div>
+</section>
+</div>
+
+        </div>
+</body>
+</html>

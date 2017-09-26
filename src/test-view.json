@@ -1,0 +1,30 @@
+{
+	"me_view": {
+		"name": "Mike Ross",
+		"img": "src/img/Mike.jpeg"
+	},
+	"main_view": [{
+		"id": "1",
+		"comments": [{
+			"user-id": "1",
+			"name": "Harvey Specter",
+			"img": "src/img/Harvey.jpeg",
+			"text": "Quisque laoreet magna nec ultricies feugiat. Curabitur ut elementum lectus, sit amet vehicula massa. Cras viverra metus quis purus elementum, a elementum tortor volutpat. ",
+			"date": "2017-09-21"
+		},
+		{
+			"user-id": "1",
+			"name": "Mike Ross",
+			"img": "src/img/Mike.jpeg",
+			"text": "Fusce in nibh non est imperdiet lacinia. Donec ac eros semper, consequat dui non, imperdiet sem. Aliquam luctus dapibus metus. ",
+			"date": "2017-09-22"
+		}
+		],
+		"name": "Mike Ross",
+		"img": "src/img/Ross.jpeg",
+		"likes": "234",
+		"fallowing": "123",
+		"fallowers": "432",
+		"site": "www.mike-ross.com"
+	}]
+}
