@@ -11,13 +11,13 @@ v.0.0.2
 
 v.0.1.0
 
--Addeded 'ngRoute','ngResource'
--Custom filter and order by for comments
--Display data to view
--Like,Follow
+-Addeded 'ngRoute','ngResource'<br>
+-Custom filter and order by for comments<br>
+-Display data to view<br>
+-Like,Follow<br>
 
 To Do:
--Add Comment 
--Popup with site 
--Test's
--Routes?
+-Add Comment <br>
+-Popup with site <br>
+-Test's<br>
+-Routes?<br>
