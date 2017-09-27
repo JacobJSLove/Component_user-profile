@@ -1,0 +1,42 @@
+
+<div class="container-wrapper">
+  <div class="container-profile">
+    <section class="profile-main_top" >
+        <figure>
+          <img ng-src="{{ $ctrl.userdata.img }}" alt="Harvey Specter" width="70px" height="70px">
+          <figcaption>
+            <i class="share icon-export" aria-hidden="true"></i>
+                <div class="profile-main_wrapper">
+                  <h1 class="profile-main_name">{{ ::$ctrl.userdata.name }}</h1>
+                  <h2 class="profile-main_city">{{ $ctrl.userdata.city }}</h2>
+                </div>
+                <i  ng-class="$ctrl.likeclass" ng-click="$ctrl.liking()" aria-hidden="true"></i>
+          </figcaption>
+        </figure>
+        <ul>
+          <li><h5>{{ $ctrl.userdata.likes }}</h5><p>Likes</p></li>
+          <li><h5>{{ $ctrl.userdata.fallowing }}</h5><p>Fallowing</p></li>
+          <li><h5>{{ $ctrl.userdata.fallowers }}</h5><p>Fallowers</p></li>
+        </ul>
+        <button ng-click="$ctrl.following()">{{ $ctrl.follow }}</button>
+    </section>
+<section class="profile-comments">
+  <p class="profile-comments_more">Hide comments (353)</p>
+<ul>
+  <li ng-repeat="comment in $ctrl.userdata.comments | orderBy:'date'">
+    <div class="profile-comments_wrapper">
+    <img ng-src="{{ comment.img }}" alt="Harvey Specter - Mini" width="40px" height="40px">
+    <article>
+    <h5>{{ comment.name }}</h5><span class="date">{{ comment.date | datecustom }}d</span>
+    <p>{{ comment.text }}</p>
+    </article>
+    </div>
+  </li>
+</ul>
+<div class="profile-comments_new-wrapper">
+<input class="profile-comments_new" type="text" placeholder="Add a comment" ng-model="$ctrl.text"></input>
+</div>
+</section>
+</div>
+
+        </div>

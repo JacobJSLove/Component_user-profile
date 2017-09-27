@@ -1,7 +1,10 @@
-app.factory('DataService', function($http) {
-       return {
-       	allData: function() {
-           return $http.get('test-view.json')
-       }
-   }
+'use strict';
+
+app.factory('DataService', function($resource) 
+{
+  return $resource('test-view.json', {
+    update: {
+      method: 'PUT'
+    }
+  });
 });

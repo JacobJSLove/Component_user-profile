@@ -254,7 +254,7 @@ content: '';
 	position: relative;
 	right: 6px;
 	bottom: 6px;
-	height: 60vh;
+	height: 50vh;
 	overflow-y: scroll;
 }
 .profile-comments article{
@@ -267,6 +267,7 @@ margin: 0;
 .profile-comments_wrapper{
 	margin:20px 9px 20px 20px;
 	display: inline-block;
+	width: calc(100% - 29px);
 }
 .profile-comments li::after{
 	content: '';
