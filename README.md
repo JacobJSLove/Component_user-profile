@@ -15,11 +15,11 @@ v.0.1.0
 -Custom filter and order by for comments<br>
 -Display data to view<br>
 -Like,Follow<br>
-
-To Do:
-
 -Add Comment <br>
 -Popup with site <br>
 -ESlint ,JSDoc<br>
+
+To Do:
+
 -Test's<br>
 -Routes?<br>
