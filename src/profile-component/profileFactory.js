@@ -1,10 +1,9 @@
 'use strict';
 
-app.factory('DataService', function($resource) 
-{
-  return $resource('test-view.json', {
-    update: {
-      method: 'PUT'
-    }
-  });
-});
+app.factory( 'DataService', ( $resource ) => {
+	return $resource( 'test-view.json', {
+		update: {
+			method: 'PUT'
+		}
+	} );
+} );

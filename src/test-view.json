@@ -1,4 +1,8 @@
-{
+{"me_view": {
+		"name": "Mike Ross",
+		"img": "img/mike.jpg"
+	},
+"profile_view": {
 		"id": "1",
 		"comments": [{
 			"user-id": "1",
@@ -49,4 +53,4 @@
 		"fallowing": "123",
 		"fallowers": "432",
 		"site": "www.mike-ross.com"
-}
+}}

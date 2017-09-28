@@ -348,7 +348,22 @@ display: none;
 .profile-comments_new::placeholder { /* Chrome/Opera/Safari */
   color: #8298B9;
 }
-
+.popup {
+	font-size: 16px;
+	color: black;
+	position: absolute;
+    left: 10px;
+    top: -40px;
+    z-index: 999;
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+    background: #fff;
+    color: #333;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+}
 
 /*		ScrollBar		*/
 
