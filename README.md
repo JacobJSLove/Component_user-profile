@@ -23,3 +23,5 @@ To Do:
 
 -Test's<br>
 -Routes?<br>
+-async?<br>
+-localstorage(for offline)<br>
