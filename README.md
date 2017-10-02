@@ -25,3 +25,4 @@ To Do:
 -Routes?<br>
 -async?<br>
 -localstorage(for offline)<br>
+-scroll to new comment
